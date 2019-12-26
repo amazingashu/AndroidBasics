@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/switchname"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"
+            android:text="Login" />
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1"
+                android:text="Enter Your Email" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter Your Email"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+        </TableRow>
+
+
+<TableRow>
+
+    <TextView
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:textColor="#FFFFFF"
+        android:text="Enter Your Password" />
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+</TableRow>
+
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:text="Age" />
+            <EditText
+                android:id="@+id/etAge"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="Enter Age"
+                android:ems="10"
+                android:inputType="number" />
+
+        </TableRow>
+
+
+        <TableRow>
+
+
+            <EditText
+                android:id="@+id/etURL"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="Enter URL"
+                android:ems="10"
+                android:inputType="text" />
+
+        </TableRow>
+
+        <TableRow>
+    <Spinner
+        android:id="@+id/btnSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</TableRow>
+
+        <TableRow>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbgroup"
+
+                >
+                <RadioButton
+                    android:id="@+id/rbMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Male" />
+
+                <RadioButton
+                    android:id="@+id/rbFemail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female" />
+
+
+            </RadioGroup>
+
+
+
+        </TableRow>
+
+
+        <TableRow>
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I agree that I am more than 18 years of Age" />
+
+        </TableRow>
+
+
+        <TableRow>
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="On Notifications" />
+
+
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <WebView
+                android:id="@+id/webview"
+                android:layout_width="match_parent"
+
+                android:layout_height="100dp" />
+        </TableRow>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit" />
+
+
+
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/View" />
+
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clear" />
+
+    </TableLayout>
+
+
+
+
+</RelativeLayout>

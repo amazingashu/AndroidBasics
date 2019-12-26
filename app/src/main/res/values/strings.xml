@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="action_settings">Settings</string>
+    <string name="submit">Submit</string>
+    <string name="View">View Value</string>
+    <string name="clear">Clear Values</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="Male">Male</string>
+
+    <string name="selected_item">Selected item:</string>
+
+    <string-array name="Languages">
+        <item>Select Language</item>
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Swift</item>
+        <item>Python</item>
+        <item>Scala</item>
+        <item>Perl</item>
+    </string-array>
+</resources>

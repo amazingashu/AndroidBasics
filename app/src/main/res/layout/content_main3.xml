@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/krbg2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Main3Activity"
+    tools:showIn="@layout/activity_main3">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+<TableRow>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameofstudent"
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"
+            android:text="Login" />
+</TableRow>
+
+        <TableRow>
+
+            <ProgressBar
+                android:id="@+id/ShowProcess"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnClick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+    </TableLayout>
+
+
+
+</RelativeLayout>
